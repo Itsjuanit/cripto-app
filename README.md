@@ -1,4 +1,6 @@
-# my-crypto-app
+# CRYPTOAPP
+
+<img src="https://drive.google.com/file/d/1SH5YML94gcdIxXZwRQ_F5FGsazoaPoUq/view?usp=share_link" alt="CryptoApp" />
 
 ## Table of Contents
 
