@@ -4,16 +4,17 @@ import Formulario from "./components/Formulario";
 import Resultado from "./components/Resultado";
 import Spinner from "./components/Spinner";
 import ImagenCripto from "./img/imagen-criptos.png";
+import AppFooter from "./components/AppFooter";
 
 const Contenedor = styled.div`
   max-width: 900px;
   margin: 0 auto;
   width: 90%;
-  @media (min-width: 992px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto; /* Agregar una fila adicional */
+  column-gap: 2rem;
+  min-height: 100%;
 `;
 const Imagen = styled.img`
   max-width: 400px;
@@ -40,7 +41,11 @@ const Heading = styled.h1`
     margin: 10px auto 0 auto;
   }
 `;
-
+const FooterContainer = styled.div`
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+`;
 function App() {
   const [monedas, setMonedas] = useState({});
   const [resultado, setResultado] = useState({});
@@ -78,6 +83,9 @@ function App() {
         {cargando && <Spinner />}
         {resultado.PRICE && <Resultado resultado={resultado} />}
       </div>
+      <FooterContainer>
+        <AppFooter />
+      </FooterContainer>
     </Contenedor>
   );
 }
