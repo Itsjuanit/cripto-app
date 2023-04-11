@@ -1,6 +1,6 @@
 # CRYPTOAPP
 
-<img src="https://drive.google.com/file/d/1SH5YML94gcdIxXZwRQ_F5FGsazoaPoUq/view?usp=share_link" alt="CryptoApp" />
+<img src="https://drive.google.com/uc?export=download&id=1SH5YML94gcdIxXZwRQ_F5FGsazoaPoUq" alt="CryptoApp" />
 
 ## Table of Contents
 
@@ -28,4 +28,4 @@ Las herramientas que se utilizaron para esta app, fueron React, Stled Components
 
 ## Live demo <a name = "demo"></a>
 
-<a href="https://cripto-app-tawny.vercel.app/" target="_blank">CLICK HERE</a>
+[CLICK HERE](https://cripto-app-tawny.vercel.app/){:target="\_blank"}
