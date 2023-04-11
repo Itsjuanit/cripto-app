@@ -28,4 +28,4 @@ Las herramientas que se utilizaron para esta app, fueron React, Stled Components
 
 ## Live demo <a name = "demo"></a>
 
-[CLICK HERE](https://cripto-app-tawny.vercel.app/){:target="\_blank"}
+<a href="https://cripto-app-tawny.vercel.app/" target="_blank">CLICK HERE</a>
